@@ -1,0 +1,10 @@
+[package]
+name = "hello-lunatic"
+version = "0.1.0"
+edition = "2021"
+authors = ["Marin Kostic <kosticmarin@gmail.com>"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+submillisecond = "0.4.1"
+submillisecond-live-view = "0.4.1"
